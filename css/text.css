@@ -1,0 +1,31 @@
+.large-text {
+	font-size: 38.5px;
+}
+
+.small-text {
+	font-size: 18px;
+	font-weight: 200;
+}
+
+.txt-overlay {
+	font-family: Montserrat;
+	color: white;
+	text-transform: uppercase;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 6vw;
+	margin: 0;
+	font-weight: 500;
+}
+
+.exp-div {
+	padding-bottom: 33.3333333%;
+}
+
+.exp-div div {
+	position: relative;
+	min-height: 33.3333333vw;
+}

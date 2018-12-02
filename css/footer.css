@@ -1,0 +1,75 @@
+.content {
+	min-height: calc(100vh - 192px);
+}
+
+footer {
+	height: 192px;
+}
+
+body > footer > div {
+	float: left;
+	background: #414042;
+	background: -webkit-linear-gradient(#2E2D2F, #414042, #414042, #414042, #414042, #414042, #414042);
+	background: -o-linear-gradient(#2E2D2F, #414042, #414042, #414042, #414042, #414042, #414042);
+	background: -moz-linear-gradient(#2E2D2F, #414042, #414042, #414042, #414042, #414042, #414042);
+	background: linear-gradient(#2E2D2F, #414042, #414042, #414042, #414042, #414042, #414042);
+	width: 37.5%;
+}
+
+#padd {
+	width: 100%;
+	padding-right: 0px;
+}
+
+#middlediv {
+	background: #333132;
+	background: -webkit-linear-gradient(#242324, #333132, #333132, #333132, #333132, #333132, #333132);
+	background: -o-linear-gradient(#242324, #333132, #333132, #333132, #333132, #333132, #333132);
+	background: -moz-linear-gradient(#242324, #333132, #333132, #333132, #333132, #333132, #333132);
+	background: linear-gradient(#242324, #333132, #333132, #333132, #333132, #333132, #333132);
+	width: 25%;
+}
+
+div .row {
+	margin-bottom: 0px;
+}
+
+#footer-right {
+	color: #B2B2B2;
+	font-size: 15.4px;
+	padding-top: 45px;
+	text-align: left;
+	font-weight: 400;
+}
+
+#footer-mid {
+	color:#666666;
+	font-size: 15.4px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+#footer-left1 {
+	color: #B2B2B2;
+	font-size: 25.5px;
+	text-align: right;
+	padding-top: 28px;
+	margin-bottom: 0px;
+}
+
+#footer-left2 {
+	font-size: 15.4px;
+	color: #B2B2B2;
+	text-align: right;
+	margin-top: 0px;
+}
+
+#footer-eagle {
+	width: 100px;
+	padding-top: 14px;
+	opacity: 0.3;
+}
+
+footer a {
+	color: #666666;
+}
