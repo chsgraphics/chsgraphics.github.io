@@ -1,6 +1,6 @@
 Centennial Graphics Site
 http://chsgraphics.ml/
-Copyright Centennial Graphics 2016-2017
+Copyright Centennial Graphics 2016-2019
 
 The MIT License (MIT)
 

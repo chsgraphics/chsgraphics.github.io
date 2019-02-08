@@ -7,7 +7,7 @@
 		<meta name="author" content="Centennial Graphics">
 		<meta name="language" content="en-us">
 
-		<title>Works - CHS Graphics</title>
+		<title>Request - CHS Graphics</title>
 		<link rel="shortcut icon" href="/favicon.ico" type="image/png">
 
 		<!--Materialize-->
@@ -20,12 +20,17 @@
 		<link type="text/css" rel="stylesheet" href="/css/text.css">
 
 		<style>
+			#form-div {
+				width: 500px !important;
+				border-style: solid;
+				border-width: 2px;
+				padding: 20px;
+			}
 		</style>
 	</head>
 
 	<body>
 		<div class="content">
-			<!--Navbar-->
 			<!--Navbar-->
 			<nav class="white">
 				<!--Desktop Logo-->
@@ -42,9 +47,9 @@
 				<!--Dekstop Navbar Contents-->
 				<ul class="desktop">
 					<li><a class="navitem" href="/">HOME</a></li>
-					<li class="active"><a href="/works/">WORKS</a></li>
+					<li><a class="navitem" href="/works/">WORKS</a></li>
 					<li><a class="navitem" href="/about/">ABOUT</a></li>
-					<li><a class="navitem" href="/request/">REQUEST</a></li>
+					<li class="active"><a href="/request/">REQUEST</a></li>
 				</ul>
 
 				<!--Mobile Menu Button-->
@@ -56,13 +61,25 @@
 			<!--Mobile Menu Contents-->
 			<ul class="mobile side-nav" id="mobile-menu">
 				<li><a href="/">HOME</a></li>
-				<li class="active"><a href="/works/">WORKS</a></li>
+				<li><a href="/works/">WORKS</a></li>
 				<li><a href="/about/">ABOUT</a></li>
-				<li><a href="/request/">REQUEST</a></li>
+				<li class="active"><a href="/request/">REQUEST</a></li>
 			</ul>
 
 			<center>
-				<p class="large-text">Work in Progress</p>
+				<p class="large-text">Place A Request</p>
+				<p>Fill out this form to send a project request directly to the Centennial Graphics team.</p><br>
+
+				<div id="form-div">
+					<form name="request-form" method="POST" action="https://formspree.io/centennialgraphicsclub@gmail.com">
+						Name: <input type="text" name="Name" placeholder="Your name">
+						Email: <input type="email" name="_replyto" placeholder="Your email">
+						Request Name: <input type="text" name="_subject" placeholder="The subject of your request">
+						Request: <textarea name="request" placeholder="Your request"></textarea>
+						<input type="submit" value="Send request">
+						<!--<input type="hidden" name="_next" value="request.html">-->
+					</form>
+				</div>
 			</center>
 		</div>
 
